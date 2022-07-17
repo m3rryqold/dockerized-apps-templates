@@ -1,5 +1,4 @@
-# dockerized-apps-templates
-
+# Dockerized Apps Templates
 ## Pre-requisites
 ### Docker
 https://docs.docker.com/engine/install/ubuntu/#installation-methods
