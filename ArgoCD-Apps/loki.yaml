@@ -12,6 +12,9 @@ spec:
   project: default
   source:
     chart: loki
+    values:
+      service:
+        type: LoadBalancer
     repoURL: https://grafana.github.io/loki/charts/
     targetRevision: 2.1.1
   syncPolicy:
