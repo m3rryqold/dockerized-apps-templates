@@ -28,3 +28,6 @@ metadata:
   name: grafana
 spec:
   type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 80
