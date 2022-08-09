@@ -20,4 +20,11 @@ spec:
       selfHeal: true
     syncOptions:
     - CreateNamespace=true
+  
+#service
+apiVersion: v1
+kind: Service
+metadata:
+  name: grafana
+spec:
   type: LoadBalancer
