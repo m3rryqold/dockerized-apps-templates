@@ -22,14 +22,14 @@ spec:
     - CreateNamespace=true
   
 #service
-apiVersion: v1
-kind: Service
-metadata:
-  name: grafana-svc
-spec:
-  type: LoadBalancer
-  ports:
-  - port: 80
-    targetPort: 3000
-  selector:
-    app: grafana
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: grafana-svc
+# spec:
+#   type: LoadBalancer
+#   ports:
+#   - port: 80
+#     targetPort: 3000
+#   selector:
+#     app: grafana
