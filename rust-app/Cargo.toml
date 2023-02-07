@@ -1,0 +1,10 @@
+[package]
+name = "my-rust-app"
+version = "0.1.0"
+authors = ["Merrygold <merrymcx@gmail.com>"]
+
+[[bin]]
+name = "my-rust-app"
+path = "main.rs"
+
+[dependencies]
